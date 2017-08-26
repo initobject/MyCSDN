@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_authorAvatar"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder_image" />
+
+    <TextView
+        android:id="@+id/et_authorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_authorAvatar"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="叶应是叶"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_authorName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="\t\t\t这是一个小小的个人CSDN博客客户端，前前后后开发了要一个星期吧~毕竟刚开始认真学不久，有时候思路就卡在了一些小地方\n\t\t\t最初也是看了一篇博文，明白了要做这些一个东西的思路，然后就尝试着开发了，思路是借鉴的，代码是自己一行行敲的\n\t\t\t开发流程我估计也已经写在了我的CSDN博客上了吧~\n\t\t\t欢迎前去交流下~"
+        android:textSize="16sp" />
+
+</RelativeLayout>

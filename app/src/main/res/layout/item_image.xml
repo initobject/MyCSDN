@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.drawee.view.SimpleDraweeView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/blogContent_image"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_margin="10dp"
+    fresco:placeholderImage="@drawable/placeholder_image"
+    fresco:progressBarAutoRotateInterval="1000"
+    fresco:progressBarImage="@drawable/progress_bar"
+    fresco:progressBarImageScaleType="centerInside" />
